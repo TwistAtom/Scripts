@@ -1,30 +1,34 @@
-# Scripts
+# :pencil: Scripts
 All of my useful scripts
 
 ## :inbox_tray: Installation
 
-Clone the repository in your Home directory :
-```sh
-$ git clone https://github.com/TwistAtom/Scripts.git
-```
-### For "epload" script :
+### For ```epload``` script :
 
-Add the execution right to the installation file :
+1 - Download the script in your home directory :
+```sh
+$ cd && wget https://raw.githubusercontent.com/TwistAtom/Scripts/master/epload
+```
+
+2 - Change the path to your Git repository in the script (line 7).
+
+3 - Add the execution right to the script file :
 ```sh
 $ chmod +x epload
 ```
 
-Finally, add alias :
-```sh
-$ echo "alias epload='~/epload'" >> ~/.bash_profile
-```
-or
+4 - Finally, add alias :
 ```sh
 $ echo "alias epload='~/epload'" >> ~/.bashrc
 ```
-
+or on mac :
+```sh
+$ echo "alias epload='~/epload'" >> ~/.bash_profile
+```
 
 ## :rocket: Launch
+
+### For ```epload``` script :
 
 After installation, you can now launch from anywhere by typing :
 ```sh
